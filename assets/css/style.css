@@ -1632,6 +1632,11 @@ span.text{
       font-size: 1.1rem;
       padding-left: 3rem;
   }
+  .doctor-card {
+  padding: 25px;
+  height: 458px;
+  width: 200px;
+ }
 
   .client-avatar {
       width: 50px;
@@ -1661,7 +1666,11 @@ span.text{
       padding: 1.5rem;
       
   }
-
+ .doctor-card {
+  padding: 25px;
+  height: 458px;
+  width: 200px;
+ }
   .testimonial-text {
       font-size: 1rem;
       padding-left: 2rem;
