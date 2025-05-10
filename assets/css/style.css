@@ -1479,7 +1479,7 @@ span.text{
     flex-direction: column;
   }
 }
-@media (max-width: 768px){
+@media (max-width: 480px){
   .doctor-card{
     width:200px;}
 }
