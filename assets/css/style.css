@@ -2675,6 +2675,9 @@ span.text{
   .pr-container{
     width:100%;
   }
+  .text-content{
+  padding:20px;
+}
   .pr-name-fields {
       grid-template-columns: 1fr;
   }
