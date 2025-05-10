@@ -334,7 +334,12 @@ justify-content: center;
   color: var(--jet);
   text-transform: uppercase;
   font-weight: var(--fw-600);
-  padding: 15px;
+  padding: 10px;
+}
+@media (max-width: 480px) {
+  .header-bottom.active{
+    top: -80px;
+  }
 }
 
 
@@ -454,6 +459,7 @@ color: var(--white); }
   .hero-content p {
       font-size: 1rem;
   }
+
 
 }
 @media (max-width: 768px) {
@@ -1473,6 +1479,10 @@ span.text{
     flex-direction: column;
   }
 }
+@media (max-width: 768px){
+  .doctor-card{
+    width:200px;}
+}
 
 .testimonials {
   padding: 8rem 5%;
@@ -1632,11 +1642,6 @@ span.text{
       font-size: 1.1rem;
       padding-left: 3rem;
   }
-  .doctor-card {
-  padding: 25px;
-  height: 458px;
-  width: 200px;
- }
 
   .client-avatar {
       width: 50px;
@@ -1666,11 +1671,7 @@ span.text{
       padding: 1.5rem;
       
   }
- .doctor-card {
-  padding: 25px;
-  height: 458px;
-  width: 200px;
- }
+
   .testimonial-text {
       font-size: 1rem;
       padding-left: 2rem;
@@ -2695,5 +2696,5 @@ span.text{
   .chat-icon{
     left:1rem;
   }
-
+  
 }
